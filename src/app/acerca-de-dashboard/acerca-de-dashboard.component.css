@@ -1,0 +1,34 @@
+.columna {
+    padding-top: 1%;
+    padding-bottom: 2%;  
+  } 
+  p>b {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 140%;
+  }
+  
+  /*Color de Fondo columnas*/
+  .columna {
+    background-color: gray;
+  }
+
+  /*Formato Foto de Perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+    position: relative;    
+    width: 90%;
+    left: 8%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px rgb(65, 65, 65);
+    }
+  }
+  
+  @media (max-width: 575px){
+    #fotodeperfil{
+    position: relative;
+    width: 30%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px rgb(65, 65, 65);
+    left: 30%;
+    }
+  }

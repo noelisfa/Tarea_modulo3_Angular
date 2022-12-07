@@ -1,0 +1,106 @@
+{
+    "nombre": "Noelis",
+    "apellido": "Figuera",
+    "profesion1": "Ingeniero De Minas",
+    "profesion2": "Estudiante Full Stack Developer",
+    "acerca": "Busco integrarme a una empresa exitosa para colaborar de manera eficiente y positiva de acuerdo a los retos que se establezcan. Logrando la oportunidad de desarrollarme de manera laboral y personal. Ser una persona objetiva, integra, competitiva y exitosa a lo largo de mi vida laboral con la ambición de adquirir nuevos conocimientos que me ayuden a superarme constantemente, sustentados en valores éticos de esfuerzo de trabajo.",
+    "foto": "../assets/imagenes/imgperfil.jpg",
+    "banner": "../assets/imagenes/banner.jpg",
+
+
+    "experiencia": [
+        {
+            "img": "assets/imagenes/empresa1.png",
+            "puesto": "Ingeniero Jr",
+            "empresa": "Dirección Estadal Ambiental Bolívar-Venezuela",
+            "desde": "11/10/2010",
+            "hasta": "23/11/2011",
+            "descripcion": "Mis tareas consistían en: Planificación y recuperación ambiental de proyectos en obras civiles y mineras. Preparación, Revisión y Confección de Documentación para Autorizaciones. Revisión de solicitudes para el otorgamiento de permisos de actividades posibles de afectar el medio ambiente e inspeccionar las obras. Tareas Administrativas Varias."
+        },
+        {
+            "img": "assets/imagenes/empresa1.png",
+            "puesto": "Pasante",
+            "empresa": "Dirección Estadal Ambiental Bolívar-Venezuela",
+            "desde": "12/07/2010",
+            "hasta": "10/09/2010",
+            "descripcion": "Mis tareas consistían en: Preparación, Revisión y Confección de Documentación para Autorizaciones. Revisión de solicitudes para el otorgamiento de permisos de actividades posibles de afectar el medio ambiente e inspeccionar las obras. Tareas Administrativas Varias."
+        }
+    ],
+    
+    "educacion": [
+        {
+            "img": "assets/imagenes/escuela1.png",
+            "titulo": "Ingeniero de Minas",
+            "institucion": "Universidad de Oriente",
+            "desde": "15/04/2005",
+            "hasta": "16/10/2012",
+            "descripcion": "El Ingeniero de Minas proyecta, organiza y dirige los trabajos para extraer de la tierra minerales sólidos, metálicos o no y el tratamiento para su utilización directa o su transformación. Realiza estudios geológicos y topográficos, recomienda mejores métodos de explotación, efectúa ensayos y experimentos de las muestras, para investigar sus propiedades y determinar sus usos. Se responsabiliza de los sondeos exploratorios del subsuelo, de las perforaciones y voladuras necesarias y de las excavaciones de minería a cielo abierto."
+        },
+        {
+            "img": "assets/imagenes/logo-argentina-programa.jpg",
+            "titulo": "Argentina Programa: #SéProgramar",
+            "institucion": "CESSI, Argentina Ministerio del Desarrollo Productivo",
+            "desde": "02/02/2022",
+            "hasta": "31/03/2022",
+            "descripcion": "#SéProgramar es un curso introductorio en el que se adquieren los fundamentos básicos de la programación para dar los primeros pasos en el mundo tecnológico. Una vez que aprobado, se puede elegir un curso de la segunda etapa de Argentina Programa 4.0 para continuar la formación"
+        },
+        {
+            "img": "assets/imagenes/logo-argentina-programa.jpg",
+            "titulo": "Argentina Programa: #YoProgramo",
+            "institucion": "CESSI, Argentina Ministerio del Desarrollo Productivo",
+            "desde": "28/06/2022",
+            "hasta": "15/01/2023",
+            "descripcion": "#YoProgramo es un curso de la segunda etapa de Argentina Programa 4.0 en el que se adquieren las habilidades y herramientas para convertirse en un programador web full-stack junior."
+        }
+    ],
+    
+    "skills": [
+        {
+            "habilidad": "Trabajo en Equipo",
+            "porcentaje": "90",
+            "color": "bg-primary"
+        },
+        {
+            "habilidad": "Manejo del Tiempo",
+            "porcentaje": "90",
+            "color": "bg-success"
+        },
+        {
+            "habilidad": "Ingles",
+            "porcentaje": "60",
+            "color": "bg-info"
+        },
+        {
+            "habilidad": "HTML",
+            "porcentaje": "70",
+            "color": "bg-warning"
+        },
+        {
+            "habilidad": "CSS",
+            "porcentaje": "65",
+            "color": "bg-danger"
+        },
+        {
+            "habilidad": "JavaScript",
+            "porcentaje": "60",
+            "color": "bg-secondary"
+        }
+    ],
+
+    "proyectos": [
+        {
+            "img": "assets/imagenes/proyecto1.png",
+            "nombre": "Portfolio Web Personal",
+            "fecha": "15/01/2023",
+            "descripcion": "Aplicación web full stack  que contiene datos personales, estudios cursados, experiencia laboral, habilidades y proyectos realizados, la App permite al usuario acceder a traves de un login y poder realizar la edición de la información, la cual, está enlazada a una base de datos. Realizado como trabajo final integrador TP de la segunda etapa del programa Argentina Programa 4.0",
+            "url": ""
+        },
+        {
+            "img": "assets/imagenes/proyecto2.png",
+            "nombre": "Replica Página Web de Compra",
+            "fecha": "22/10/2022",
+            "descripcion": "Replica de pagina web para la compra de boletos, que permite seleccionar una categoría de entre varias con diferentes descuentos al precio general y retorna el precio total a pagar dependiendo de la cantidad y categoria antes mencionada. Realizado como trabajo práctico integrador del programa Codo a Codo 4.0",
+            "url":"https://tp-javascript-noelisfiguera.noefa.repl.co/"
+        }
+    ]
+}

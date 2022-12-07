@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <div class="row">
+      <h2>Educación</h2>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 columna" *ngFor="let estudio of educacion">
+        <img id="imgl" class="img-fluid" [src]="estudio.img" alt="Imagen de la escuela 1">
+        <h3>{{estudio.titulo}}</h3>
+        <h4>{{estudio.institucion}}</h4>
+        <h5>{{estudio.desde}} - {{estudio.hasta}}</h5>
+        <p>{{estudio.descripcion}}</p>
+      </div>
+    </div>
+</div>
+
+    
+

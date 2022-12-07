@@ -1,0 +1,11 @@
+.columna {
+    background-color: gray;
+    padding-top: 1%;
+    padding-bottom: 2%;  
+  } 
+
+  #imgl {
+    width: 17em;
+    height: 12em;
+    border-radius: 7%;
+  }

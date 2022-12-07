@@ -1,0 +1,12 @@
+<div class="container-fluid">
+<div class="row">
+    <h2>Experiencia</h2>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 columna" *ngFor="let trabajo of experiencia">
+      <img [src]="trabajo.img" id="imgl" class="img-fluid" alt="Imagen de la empresa 1">
+      <h3>{{trabajo.puesto}}</h3>
+      <h4>{{trabajo.empresa}}</h4>
+      <h6>{{trabajo.desde}} - {{trabajo.hasta}}</h6>
+      <p>{{trabajo.descripcion}}</p>
+  </div>
+</div>
+</div>

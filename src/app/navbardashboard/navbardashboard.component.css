@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+.columna-1 {
+    overflow: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(35, 35, 35);
+}
+
+.barra {
+    width: 185px;
+}
+
+   
